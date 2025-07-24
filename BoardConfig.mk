@@ -8,7 +8,7 @@
 include device/tecno/mt6833-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := li9,li9_h335
+TARGET_OTA_ASSERT_DEVICE := li9,li9_h335,LI9,TECNO-LI9
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := li9_h335

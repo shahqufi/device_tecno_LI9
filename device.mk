@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/li9
+DEVICE_PATH := device/tecno/LI9
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
 # AAPT
@@ -18,9 +18,9 @@ TARGET_SCREEN_WIDTH := 1080
 #TODO
 # Overlays
 PRODUCT_PACKAGES += \
-	FrameworksResOverlayli9 \
-    SettingsProviderOverlayli9 \
-    SystemUIOverlayli9
+	FrameworksResOverlayLI9 \
+    SettingsProviderOverlayLI9 \
+    SystemUIOverlayLI9
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
@@ -37,4 +37,4 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, device/tecno/mt6833-common/common.mk)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/tecno/li9/li9-vendor.mk)
+$(call inherit-product, vendor/tecno/LI9/LI9-vendor.mk)

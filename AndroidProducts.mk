@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_li9.mk
+    $(LOCAL_DIR)/lineage_LI9.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_li9-eng
+    lineage_LI9-eng
